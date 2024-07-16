@@ -12,7 +12,7 @@ def clean_text(text):
     text = re.sub(r'http\S+|www\S+|https\S+', '', text, flags=re.MULTILINE)
     #Delete mentions (@users) and hashtags (#)
     text = re.sub(r'@\w+|#\w+', '', text)
-    #Delete characters non alphanumerics (except white spaces)
+    #Delete characters non alphanumeric (except white spaces)
     text = re.sub(r'\W', ' ', text)
     #Delete multiple spaces and spaces at the end and beginning 
     text = re.sub(r'\s+', ' ', text).strip()
