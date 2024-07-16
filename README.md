@@ -56,7 +56,7 @@ Ensure you have Python 3.7 or later installed. Create a virtual environment (rec
 
 ```bash
 python -m venv venv
-source venv/bin/activate  #On Windows use: venv\Scripts\activate
+./venv/Scripts/activate  #On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
