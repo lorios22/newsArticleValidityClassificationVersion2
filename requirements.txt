@@ -3,3 +3,5 @@ scikit-learn
 tensorflow
 shap
 matplotlib
+openpyxl
+transformers==4.28.0
